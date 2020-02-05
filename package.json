@@ -1,0 +1,17 @@
+{
+  "name": "coding-dojo-setup",
+  "version": "1.0.0",
+  "description": "Minimal setup for tdd with node.js, mocha and chai",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha \"*.unit.*\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actano/coding-dojo-setup.git"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1"
+  }
+}
